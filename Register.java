@@ -9,7 +9,12 @@ public class Register {
 		
 
 }
-	//validate Mobile number and password.
+	/**
+	 * Validate mobile number and password.
+	 * @param userNumber
+	 * @param password
+	 * @return
+	 */
 	public static boolean isLoginValid(long userNumber,String password) {
 		//Add the mobile number and password into the hashmap.
 		HashMap<Long,String> login = new HashMap<Long,String>();
